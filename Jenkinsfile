@@ -91,8 +91,6 @@ pipeline {
         }
     }
 
-    // Uncomment this block later if you want to trigger another job
-    /*
     post {
         always {
             emailext(
@@ -101,10 +99,9 @@ pipeline {
                 body: "Project: ${env.JOB_NAME}<br/>" +
                       "Build Number: ${env.BUILD_NUMBER}<br/>" +
                       "URL: ${env.BUILD_URL}<br/>",
-                to: 'ashfaque.s510@gmail.com',
+                to: 'ujjwalagrahari2003@gmail.com',
                 attachmentsPattern: 'trivyfs.txt,trivyimage.txt'
             )
         }
     }
-    */
 }
