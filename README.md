@@ -1,5 +1,5 @@
 # Automation for Blue Green Deployement
-
+```
 pipeline {
     agent any
     environment {
@@ -46,7 +46,7 @@ pipeline {
         }
     }
 }
-
+```
 
 
 
